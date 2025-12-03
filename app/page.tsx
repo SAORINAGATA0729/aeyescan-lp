@@ -40,19 +40,13 @@ export default function LandingPage() {
           <div className="container-custom relative z-10">
             <div className="flex flex-col lg:flex-row items-center gap-12">
               <div className="lg:w-1/2 text-left">
-                <h1 className="text-[#333333] font-bold text-3xl md:text-5xl tracking-tight mb-4 leading-tight whitespace-nowrap">
-                  Webアプリケーション診断
+                <h1 className="text-[#333333] font-bold text-2xl md:text-4xl tracking-tight mb-4 leading-tight">
+                  Webアプリケーション診断は、<br/>
+                  「委託」から「自動化」へ。
                 </h1>
-                <p className="text-lg md:text-2xl font-bold text-[#666666] mb-8 leading-snug">
-                  セキュアなWebサービス開発・<br className="hidden md:block"/>提供を支える
+                <p className="text-base md:text-xl font-normal text-[#666666] mb-8 leading-snug">
+                  AIが人手と同等の精度で高速スキャン。<br className="hidden md:block"/>従来の診断にかかるコストと時間を劇的に削減します。
                 </p>
-                
-                <div className="mb-10">
-                  <p className="text-[#666666] leading-relaxed text-lg font-medium">
-                    企業の数だけ、診断の形がある。<br/>
-                    自社にあった脆弱性診断を選びませんか？
-                  </p>
-                </div>
 
                 <div className="flex flex-wrap gap-4 justify-start">
                   <Button className="bg-[#FFB629] hover:bg-[#FFA500] text-white rounded-md px-8 py-6 text-lg font-bold shadow-lg transition-all hover:-translate-y-0.5 min-w-[240px]" asChild>
@@ -178,7 +172,7 @@ export default function LandingPage() {
                   icon: <Building2 className="w-8 h-8 text-[#002d5a]" />
                 },
                 { 
-                  text: "外部ベンダーや委託先が開発した\nシステムの受け入れ時", 
+                  text: "外部ベンダーや委託先が開発したシステムの受け入れ時", 
                   icon: <Users className="w-8 h-8 text-[#002d5a]" />
                 }
               ].map((item, i) => (
@@ -579,7 +573,7 @@ export default function LandingPage() {
 
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                       {/* Case 1: eplus */}
-                      <div className="bg-white rounded-lg border border-[#EEEEEE] overflow-hidden flex flex-col">
+                      <div className="bg-white rounded-lg border border-[#EEEEEE] overflow-hidden flex flex-col transition-all duration-300 hover:shadow-xl cursor-pointer">
                         <div className="p-6 flex-grow border-b border-[#EEEEEE] border-dashed">
                           <div className="mb-4 h-8 relative w-32">
                              <Image src="https://www.aeyescan.jp/wp-content/themes/cocoon-child-master/images/lp06/logo_1.png" alt="イープラス" fill className="object-contain object-left" unoptimized />
@@ -596,7 +590,7 @@ export default function LandingPage() {
                       </div>
 
                       {/* Case 2: NTT East */}
-                      <div className="bg-white rounded-lg border border-[#EEEEEE] overflow-hidden flex flex-col">
+                      <div className="bg-white rounded-lg border border-[#EEEEEE] overflow-hidden flex flex-col transition-all duration-300 hover:shadow-xl cursor-pointer">
                         <div className="p-6 flex-grow border-b border-[#EEEEEE] border-dashed">
                           <div className="mb-4 h-8 relative w-32">
                              <Image src="https://www.aeyescan.jp/wp-content/themes/cocoon-child-master/images/lp06/logo_2.png" alt="NTT EAST" fill className="object-contain object-left" unoptimized />
@@ -613,7 +607,7 @@ export default function LandingPage() {
                       </div>
 
                       {/* Case 3: CAPCOM */}
-                      <div className="bg-white rounded-lg border border-[#EEEEEE] overflow-hidden flex flex-col">
+                      <div className="bg-white rounded-lg border border-[#EEEEEE] overflow-hidden flex flex-col transition-all duration-300 hover:shadow-xl cursor-pointer">
                         <div className="p-6 flex-grow border-b border-[#EEEEEE] border-dashed">
                           <div className="mb-4 h-8 relative w-32">
                              <Image src="https://www.aeyescan.jp/wp-content/themes/cocoon-child-master/images/lp06/logo_3.png" alt="CAPCOM" fill className="object-contain object-left" unoptimized />
@@ -630,7 +624,7 @@ export default function LandingPage() {
                       </div>
 
                       {/* Case 4: GEO */}
-                      <div className="bg-white rounded-lg border border-[#EEEEEE] overflow-hidden flex flex-col">
+                      <div className="bg-white rounded-lg border border-[#EEEEEE] overflow-hidden flex flex-col transition-all duration-300 hover:shadow-xl cursor-pointer">
                         <div className="p-6 flex-grow border-b border-[#EEEEEE] border-dashed">
                           <div className="mb-4 h-8 relative w-32">
                              <Image src="https://www.aeyescan.jp/wp-content/themes/cocoon-child-master/images/lp06/logo_4.png" alt="GEO" fill className="object-contain object-left" unoptimized />
@@ -647,7 +641,7 @@ export default function LandingPage() {
                       </div>
 
                       {/* Case 5: Suzuyo */}
-                      <div className="bg-white rounded-lg border border-[#EEEEEE] overflow-hidden flex flex-col">
+                      <div className="bg-white rounded-lg border border-[#EEEEEE] overflow-hidden flex flex-col transition-all duration-300 hover:shadow-xl cursor-pointer">
                         <div className="p-6 flex-grow border-b border-[#EEEEEE] border-dashed">
                           <div className="mb-4 h-8 relative w-32">
                              <Image src="https://www.aeyescan.jp/wp-content/themes/cocoon-child-master/images/lp06/logo_5.png" alt="Suzuyo" fill className="object-contain object-left" unoptimized />
@@ -664,7 +658,7 @@ export default function LandingPage() {
                       </div>
 
                       {/* Case 6: Dentsu Soken */}
-                      <div className="bg-white rounded-lg border border-[#EEEEEE] overflow-hidden flex flex-col">
+                      <div className="bg-white rounded-lg border border-[#EEEEEE] overflow-hidden flex flex-col transition-all duration-300 hover:shadow-xl cursor-pointer">
                         <div className="p-6 flex-grow border-b border-[#EEEEEE] border-dashed">
                           <div className="mb-4 h-8 relative w-32">
                              <Image src="https://www.aeyescan.jp/wp-content/themes/cocoon-child-master/images/lp06/logo_6.png" alt="電通総研" fill className="object-contain object-left" unoptimized />
@@ -681,7 +675,7 @@ export default function LandingPage() {
                       </div>
 
                       {/* Case 7: HITOWA */}
-                      <div className="bg-white rounded-lg border border-[#EEEEEE] overflow-hidden flex flex-col">
+                      <div className="bg-white rounded-lg border border-[#EEEEEE] overflow-hidden flex flex-col transition-all duration-300 hover:shadow-xl cursor-pointer">
                         <div className="p-6 flex-grow border-b border-[#EEEEEE] border-dashed">
                           <div className="mb-4 h-8 relative w-32">
                              <Image src="https://www.aeyescan.jp/wp-content/themes/cocoon-child-master/images/lp06/logo_7.png" alt="HITOWA" fill className="object-contain object-left" unoptimized />
@@ -698,7 +692,7 @@ export default function LandingPage() {
                       </div>
 
                       {/* Case 8: Money Forward */}
-                      <div className="bg-white rounded-lg border border-[#EEEEEE] overflow-hidden flex flex-col">
+                      <div className="bg-white rounded-lg border border-[#EEEEEE] overflow-hidden flex flex-col transition-all duration-300 hover:shadow-xl cursor-pointer">
                         <div className="p-6 flex-grow border-b border-[#EEEEEE] border-dashed">
                           <div className="mb-4 h-8 relative w-32">
                              <Image src="https://www.aeyescan.jp/wp-content/themes/cocoon-child-master/images/lp06/logo_8.png" alt="Money Forward" fill className="object-contain object-left" unoptimized />
@@ -715,7 +709,7 @@ export default function LandingPage() {
                       </div>
 
                       {/* Case 9: MIZUNO */}
-                      <div className="bg-white rounded-lg border border-[#EEEEEE] overflow-hidden flex flex-col">
+                      <div className="bg-white rounded-lg border border-[#EEEEEE] overflow-hidden flex flex-col transition-all duration-300 hover:shadow-xl cursor-pointer">
                         <div className="p-6 flex-grow border-b border-[#EEEEEE] border-dashed">
                           <div className="mb-4 h-8 relative w-32">
                              <Image src="https://www.aeyescan.jp/wp-content/themes/cocoon-child-master/images/lp06/logo_9.png" alt="MIZUNO" fill className="object-contain object-left" unoptimized />
