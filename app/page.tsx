@@ -45,7 +45,7 @@ export default function LandingPage() {
                   「委託」から「自動化」へ。
                 </h1>
                 <p className="text-base md:text-xl font-normal text-[#666666] mb-8 leading-snug">
-                  AIが人手と同等の精度で高速スキャン。<br className="hidden md:block"/>従来の診断にかかるコストと時間を劇的に削減します。
+                  AI等の活用により、高精度かつ高速なスキャンを実現。<br className="hidden md:block"/>従来の診断にかかるコストと時間を劇的に削減します。
                 </p>
 
                 <div className="flex flex-wrap gap-4 justify-start">
